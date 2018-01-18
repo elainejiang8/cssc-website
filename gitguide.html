@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A website for CS1951I students at Brown University">
+        <meta name="author" content="CS1951I TA Staff">
+
+        <title>CS1951I | Brown University</title>
+
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/cs1951I.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="img/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lora|Montserrat:400,700" rel="stylesheet" type="text/css">
+
+
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    CS1951I
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#course-info">Course Info</a></li>
+                    <li><a class="page-scroll" href="#assignments">Assignments</a></li>
+                    <li><a class="page-scroll" href="#staff">Staff</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+        </nav>
+
+
+        <!-- Course Information Section -->
+        <section id="git-guide">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Guide to Git</h2>
+                </div>
+                <div class="col-md-12">
+                    <p>Git is a widely used version control system that allows us to create repositories and collaborate on projects. This guide will serve as a quick reference to the commonly used tools and commands of Git. For more in-depth documentation, please visit <a href="https://git-scm.com/documentation">here</a>.</p>
+                    
+                    <p>This guide will cover how to:</p>
+                    
+                    <ul>
+                        <li>Create and use a repository</li>
+                        <li>Start and manage a new branch</li>
+                        <li>Commit your changes</li>
+                        <li>Work remotely</li>
+                        <li>Open and merge a pull request</li>
+                    </ul>
+                    
+                    <p>At the end is a useful table of essential Git commands.</p>
+                    
+                    <h3>Create and Use a Repository</h3>
+                    <p>A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.</p>
+                    <p>To create a new repository:</p>
+                    <ul><li>In the upper right corner, next to your avatar or identicon, click  and then select New repository.</li>
+                    <li>Name your repository hello-world.</li>
+                    <li>Write a short description.</li>
+                    <li>Select Initialize this repository with a README.</li></ul>
+
+                    
+                    <h3>Start and Manage a New Branch</h3>
+                    <p>Branching is the way to work on different versions of a repository at one time.</p>
+                    <p>By default your repository has one branch named master which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to master.</p>
+                    <p>When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time. If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.</p>
+                    <p>To create a new branch:</p>
+                    <ul><li>Go to your repository.</li>
+                    <li>Click the drop down at the top of the file list that says branch: master.</li>
+                    <li>Type a branch name into the new branch text box.</li>
+                    <li>Select the blue Create branch box.</li></ul>
+                    
+                    <h3>Commit Your Changes</h3>
+                    <p>On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.</p>
+                    <p>Make and commit changes:</p>
+                    <ul><li>Navigate to a file in your repo you wish to edit.</li>
+                    <li>Click the pencil icon in the upper right corner of the file view to edit.</li>
+                    <li>Make the desired changes. </li>
+                    <li>Write a commit message that describes your changes.</li>
+                    <li>Click Commit changes button.</li></ul>
+                    <p>These changes will be made on your current branch. If you are on a branch other than master, this branch now contains content that’s different from master.</p>
+                    
+                    <h3>Work Remotely</h3>
+                    <p>Since you will all be working in teams, the best way to collaborate on a project is to pull, or clone, the project repository from Git, make changes remotely, commit those changes, and push the new changes to the project repository.</p>
+                    <p>To clone a repository:</p>
+                    <ul><li>Copy the web URL of your repository by going to your repository, clicking the “Clone or Download” button, and copying the URL that pops up.</li>
+                    <li>Open your terminal and run, “git clone [web URL of repo]”.</li></ul><br>
+                    <p>To commit changes you’ve made remotely:</p>
+                    <ul><li>Open your terminal.</li>
+                    <li>Run “git add -A”. This adds all of your files to your commit. If you want to choose individual files, you can use the syntax, “git add name of file>”.</li>
+                    <li>Run “git commit -m [message about commit]”.</li>
+                    <li>Finally, to push these changes to your repository on Git, run “git push”.</li> </ul>
+
+                    <h3>Open and Merge a Pull Request</h3>
+                    <p>Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.</p>
+                    <p>As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.</p>
+                    <p>To open a pull request:</p>
+                    <ul><li>Click the Pull Request tab, then from the Pull Request page, click the green New Pull Request button.</li>
+                    <li>In the Example Comparisons box, select the branch you wish to merge, to compare with master (the original).</li>
+                    <li>Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.</li>
+                    <li>When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.</li></ul>
+                    
+                    <h3>Essential Git Commands</h3>
+                    <table class="assignment">
+                        <tr><th>Command</th><th>Description</th></tr>
+                        
+                        <tr><td>git clone URL-or-path-to-repo</td><td>Clone a repository. This makes a new folder in the current directory containing the files in the repository in which you can work on the code.</td></tr>
+                        
+                        <tr><td>git add</td><td>Add the given file to the repository so that it will be tracked by git. Use this when you author a new code file and want to include it in a commit. Alternatively, include -a to add all files from your local repo.</td></tr>
+                        
+                        <tr><td>git commit</td><td>Finalize the current changes to your code as a commit to your current branch and repo on your local machine.Include -a to automatically add changed files that git is already tracking and -m [message] to include a message about the commit (otherwise you will be kicked to an editor in which to type out your message).</td></tr>
+                        
+                        <tr><td>git pull</td><td>Pull any changes that have happened on the remote server you initially cloned and bring them into your local repository. You will need to have a clean repo so you will probably want to commit first if you have changes (or stash them). (NOTE: a git pull is a combination of a git fetch and a git merge which will lead to extra commits of the form Merge branch 'master' of .... For a cleaner history, use git pull --rebase)</td></tr>
+                        
+                        <tr><td>git push</td><td>Push whatever commits you have made locally to the remote repository that you cloned previously. You may need to pull first to ensure that you are in sync with the repo.</td></tr>
+                        
+                        <tr><td>git log</td><td>View history of commits that you have made. They will be displayed with their unique identifier (a big hex mess like 766f98f32fa...) and their commit message.</td></tr>
+                        
+                        <tr><td>git checkout -b [branch]</td><td>The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.</td></tr>
+                        
+                        <tr><td>git fetch</td><td>When you git fetch, Git gathers any commits from the target branch that do not exist in your current branch and stores them in your local repository. However, it does not merge them with your current branch. This is particularly useful if you need to keep your repository up to date, but are working on something that might break if you update your files. </td></tr>
+                        
+                        <tr><td>git merge</td><td>To integrate the commits into your master branch, you use git merge.</td></tr>
+                        
+                        <tr><td>git diff</td><td>View the difference between the current code and the latest commit. You can also enter two commit IDs to see the difference between the code at each of those commits.</td></tr>
+                        
+                        <tr><td>git reset [ID]</td><td>Reset the state of your repo to that of a specific commit from the past.</td></tr>
+                        
+                        <tr><td>git stash</td><td>Stash away the latest uncommitted changes. Later, you can run git stash apply to restore these changes.</td></tr>
+                    </table>
+                    
+                    <h4>Sources</h4>
+                    <p><a href="http://cs.brown.edu/courses/cs0320/docs/git-reference.html">http://cs.brown.edu/courses/cs0320/docs/git-reference.html</a><br>
+                    <a href="https://guides.github.com/activities/hello-world/">https://guides.github.com/activities/hello-world/</a></p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+        <div class="container text-center">
+            <p>
+            &copy; 2018 CS1951I TA Staff
+            <span class="spacing">|</span>
+            <a href="http://cs.brown.edu">Computer Science Department</a>
+            <span class="spacing">|</span>
+            <a href="http://brown.edu">Brown University</a>
+            </p>
+        </div>
+        </footer>
+
+        <!-- Javascript files -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/cs1951I.js"></script>
+
+    </body>
+</html>

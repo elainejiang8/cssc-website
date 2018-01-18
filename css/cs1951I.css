@@ -1,5 +1,5 @@
 /*
- * Custom CSS for CS33
+ * Custom CSS for CS1951I
  */
 
 body {
@@ -126,60 +126,25 @@ td, th {
     table.assignment td:nth-of-type(2):before { content: "Out"; }
     table.assignment td:nth-of-type(3):before { content: "Due"; }
 
-    /* Lectures table */
-    table.lecture td:nth-of-type(1):before { content: "Date"; }
-    table.lecture td:nth-of-type(2):before { content: "Topic"; }
-    table.lecture td:nth-of-type(3):before { content: "Readings"; }
-    table.lecture td:nth-of-type(4):before { content: "Lecture (.pdf)"; }
-    table.lecture td:nth-of-type(5):before { content: "Recording (.mp4)"; }
-
-    /* For the Tom's office hours table */
-    table.tom-hours td:nth-of-type(1):before { content: "Day" ;}
-    table.tom-hours td:nth-of-type(2):before { content: "Time" ;}
-
-    /* For the lab hours table */
-    table.lab-hours td:nth-of-type(1):before { content: "Time"; }
-    table.lab-hours td:nth-of-type(2):before { content: "Location"; }
-    table.lab-hours td:nth-of-type(3):before { content: "TAs"; }
-
-    /* For the ta hours table */
-    table.ta-hours td:nth-of-type(1):before { content: "Time"; }
-    table.ta-hours td:nth-of-type(2):before { content: "Sunday"; }
-    table.ta-hours td:nth-of-type(3):before { content: "Monday"; }
-    table.ta-hours td:nth-of-type(4):before { content: "Tuesday"; }
-    table.ta-hours td:nth-of-type(5):before { content: "Wednesday"; }
-    table.ta-hours td:nth-of-type(6):before { content: "Thursday"; }
-    table.ta-hours td:nth-of-type(7):before { content: "Friday"; }
-    table.ta-hours td:nth-of-type(8):before { content: "Saturday"; }
-
-		/* Gear up table */
-		table.gear-up td:nth-of-type(1):before { content: "Date"; }
-		table.gear-up td:nth-of-type(2):before { content: "Topic"; }
-		table.gear-up td:nth-of-type(3):before { content: "Slides"; }
-
     /* Makes sure empty cells won't have labels */
     table td:empty { display: none; }
 }
 
 /* Alternate background colors */
 #course-info {
-    background-color: #5837BA;
+    background-color: #003b46;
 }
 
 #assignments {
-    background-color: #375CBA;
+    background-color: #07575b;
 }
 
-#lectures {
-    background-color: #2F7CA3;
-}
-
-#hours {
-    background-color: #008863;
+#git-guide {
+    background-color: #07575b;
 }
 
 #staff {
-    background-color: #2F7CA3;
+    background-color: #66a5ad;
 }
 
 /* Custom section types */
@@ -258,37 +223,37 @@ footer p {
     height: 200px; 
 }
 
-/* .ta div#ugur {
-    background-image: url("../img/characters/scuba.jpg"); 
+ .ta div#ugur {
+    /*background-image: url("../img/characters/scuba.jpg"); */
 }
 
 .ta div#ugur:hover {
-    background-image: url("../img/ugur.jpg"); 
+    /*background-image: url("../img/ugur.jpg"); */
 }
 
 .ta div#nramoji {
-    background-image: url("../img/characters/scuba.jpg"); 
+    background-image: url("../img/characters/judy.png"); 
 }
 
 .ta div#nramoji:hover {
-    background-image: url("../img/nramoji.jpg"); 
+    /*background-image: url("../img/nramoji.jpg"); */
 }
 
 .ta div#ejiang1 {
-    background-image: url("../img/characters/scuba.jpg"); 
+    background-image: url("../img/characters/flash.png"); 
 }
 
 .ta div#ejiang1:hover {
-    background-image: url("../img/ejiang1.jpg"); 
+    /*background-image: url("../img/ejiang1.jpg"); */
 }
 
-.ta div#sahil {
-    background-image: url("../img/characters/scuba.jpg"); 
+.ta div#sp85 {
+    background-image: url("../img/characters/bogo.png"); 
 }
 
-.ta div#sahil:hover {
-    background-image: url("../img/sahil.jpg"); 
-} */
+.ta div#sp85:hover {
+    /*background-image: url("../img/sahil.jpg"); */
+} 
 
 /* Navbar */
 
