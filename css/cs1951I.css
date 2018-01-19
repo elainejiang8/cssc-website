@@ -132,11 +132,11 @@ td, th {
 
 /* Alternate background colors */
 #course-info {
-    background-color: #003b46;
+    background-color: #3aafa9;
 }
 
 #assignments {
-    background-color: #07575b;
+    background-color: #2b7a78;
 }
 
 #git-guide {
@@ -144,7 +144,7 @@ td, th {
 }
 
 #staff {
-    background-color: #66a5ad;
+    background-color: #17252a;
 }
 
 /* Custom section types */
@@ -224,7 +224,7 @@ footer p {
 }
 
  .ta div#ugur {
-    /*background-image: url("../img/characters/scuba.jpg"); */
+    background-image: url("../img/characters/ugur-char.jpg"); 
 }
 
 .ta div#ugur:hover {
@@ -232,7 +232,7 @@ footer p {
 }
 
 .ta div#nramoji {
-    background-image: url("../img/characters/judy.png"); 
+    background-image: url("../img/characters/nramoji-char.jpg"); 
 }
 
 .ta div#nramoji:hover {
@@ -240,7 +240,7 @@ footer p {
 }
 
 .ta div#ejiang1 {
-    background-image: url("../img/characters/flash.png"); 
+    background-image: url("../img/characters/ejiang1-char.jpg"); 
 }
 
 .ta div#ejiang1:hover {
@@ -248,7 +248,7 @@ footer p {
 }
 
 .ta div#sp85 {
-    background-image: url("../img/characters/bogo.png"); 
+    background-image: url("../img/characters/sp85-char.jpg"); 
 }
 
 .ta div#sp85:hover {
