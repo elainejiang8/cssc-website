@@ -228,7 +228,7 @@ footer p {
 }
 
 .ta div#ugur:hover {
-    /*background-image: url("../img/ugur.jpg"); */
+    background-image: url("../img/ugur.jpg"); 
 }
 
 .ta div#nramoji {
@@ -236,7 +236,7 @@ footer p {
 }
 
 .ta div#nramoji:hover {
-    /*background-image: url("../img/nramoji.jpg"); */
+    background-image: url("../img/nramoji.jpg"); 
 }
 
 .ta div#ejiang1 {
@@ -244,7 +244,7 @@ footer p {
 }
 
 .ta div#ejiang1:hover {
-    /*background-image: url("../img/ejiang1.jpg"); */
+    background-image: url("../img/ejiang1.jpg");
 }
 
 .ta div#sp85 {
@@ -252,7 +252,7 @@ footer p {
 }
 
 .ta div#sp85:hover {
-    /*background-image: url("../img/sahil.jpg"); */
+    background-image: url("../img/sp85.jpg");
 } 
 
 /* Navbar */
